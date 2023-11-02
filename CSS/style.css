@@ -1,0 +1,76 @@
+h1{
+    border: 3px dashed dimgray;
+    border-radius: 30px;        /*可調整邊界線四個角的圓弧度*/
+    padding: 10px;
+    margin: 20px;
+}
+p{
+    font-size: 20px;
+    padding: 5px;
+    margin:10px
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;        /*內容常會被壓縮且擠在同一行，這時可以透過 flex-wrap 來換行*/
+    flex-direction:column;      /*主軸*/
+    justify-content: center;        /*主軸位置：可選center、flex-start、flex-end*/
+    align-content: center;        /*赤軸位置：可選同上選項*/
+}
+.red{
+    color: red;
+    background-color: pink;
+    /*flex: 1;
+    order: 2;*/
+}
+.gold{
+    color: gold;
+    background-color: orange;
+    /*flex: 1;
+    order: 1;*/
+}
+.blue{
+    color:cornflowerblue;
+    background-color: aquamarine;
+    /*flex: 1;
+    order: 3;*/
+
+}
+/* id */
+#css-h1:hover{
+    color: dimgray;
+    background-color: lightblue;
+}
+@keyframes color_change {
+    from {background-color: gold;}
+    to {background-color: red;}
+}
+@keyframes rainbow{
+    0% {background-color: red; top:10px ; left:10px ;}
+    10% {background-color: orangered;top:20px ; left:20px ;}
+    20% {background-color: orange;top:30px ; left:30px ;}
+    30% {background-color: gold;top:40px ; left:40px ;}
+    40% {background-color: greenyellow;top:50px ; left:50px ;}
+    50% {background-color: lightgreen;top:60px ; left:60px ;}
+    60% {background-color:lightseagreen;top:70px ; left:70px ;}
+    70% {background-color: lightblue;top:80px ; left:80px ;}
+    80% {background-color:plum;top:90px ; left:90px ;}
+    90% {background-color: pink;top:100px ; left:100px ;}
+    99% {background-color: peachpuff;top:110px ; left:110px ;}
+    100% {background-color: lightblue;top:120px ; left:120px ;}
+
+
+}
+.animation{
+    background-color:lightblue;
+    width: 30px;
+    padding: 30px;
+    position: relative;
+    border: 3px dashed dimgray;
+    border-radius: 30px 30px 50px 50px;
+    opacity: 0.5;
+}
+.animation_container:hover { 
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;    /*重複幾次*/
+}

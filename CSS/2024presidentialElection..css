@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+h1 {
+    color:black;
+    position: absolute;
+    left: 6vw;
+    top: 20px;
+    bottom:20px;
+}
+header ul{
+    position:absolute;
+    right: 1vw;
+    top: 30px;
+    bottom:30px;
+}
+header li{
+    text-decoration: none;
+    display: inline flex ;
+    margin-right: 3vw;
+}
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+p{
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+main .co {
+    height: 80px;
+    background-color: darkgrey;
+}
+.no1 a {
+    color:white;
+    text-decoration: none;
+}
+.no1 a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+.no1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%E6%9F%AF%E6%96%87%E5%93%B2_IMG_9322-1_%2814300234412%29_%28cropped%29.jpg/440px-%E6%9F%AF%E6%96%87%E5%93%B2_IMG_9322-1_%2814300234412%29_%28cropped%29.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: darkturquoise;
+    height: 300px;
+    border: 5px darkturquoise solid;
+}
+.no1 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-right: 50px;
+}
+.no2 a {
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.no2 a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+.no2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%E4%BE%AF%E5%8F%8B%E5%AE%9C%E5%B8%82%E9%95%B7%E8%82%96%E5%83%8F.jpg/440px-%E4%BE%AF%E5%8F%8B%E5%AE%9C%E5%B8%82%E9%95%B7%E8%82%96%E5%83%8F.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: blue;
+    height: 300px;
+    border: 5px blue solid;
+}
+.no2 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-right: 50px;
+}
+.no3 a {
+    color:darkgreen;
+    text-decoration: none;
+}
+.no3 a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+.no3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%E5%89%AF%E7%B8%BD%E7%B5%B1%E8%B3%B4%E6%B8%85%E5%BE%B7%E5%AE%98%E6%96%B9%E8%82%96%E5%83%8F.jpg/440px-%E5%89%AF%E7%B8%BD%E7%B5%B1%E8%B3%B4%E6%B8%85%E5%BE%B7%E5%AE%98%E6%96%B9%E8%82%96%E5%83%8F.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: green;
+    height: 300px;
+    border: 5px green solid;
+}
+.no3 h2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-right: 50px;
+}
