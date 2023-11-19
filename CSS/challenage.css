@@ -1,28 +1,26 @@
 *{
-    margin: 10px;
+    margin: 0px;
     padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 header,section{
     background-color:blanchedalmond;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
 }
 header{
     background-color:rgb(99, 152, 183);
     position: relative;
     padding: 10px;
 }
-header:hover{
-    animation-name: rainbow;
-    animation-duration: 8s;
-    animation-iteration-count:infinite;
-}
 
-header a{
-    text-decoration: none;
-    color: black;
-}
+
 header a:hover{
     text-decoration:underline;
 }
@@ -46,45 +44,52 @@ header li{
 }
 
 header li:hover{
-    background-color:  rgb(202,121,65);
+    background-color:  rgb(243, 130, 49);
 }
 
 section{
     padding: 10px;
 }
 
-.sec1 h2{
+h2{
     font-size: 60px;
 }
 
-.sec1{
+.sec1 div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 4vw;
+}
+
+#code{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
+
 .sec2 div{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 4vw;
 }
+
 #studies{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
 
 }
 
-.sec2 a{
+main a{
     padding: 5px;
     margin: 5px;
     border: 3px black solid;
     border-radius: 10px;
 }
 
-.sec2 a:hover{
+main  a:hover{
     animation-name: rainbow;
     animation-duration: 8s;
     animation-iteration-count:infinite;
