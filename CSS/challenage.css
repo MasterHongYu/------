@@ -1,28 +1,103 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin: 10px;
+    padding: 0px;
 }
-header {
-    background-color:cornflowerblue;
-    height: 70px;
-    width: 100%;
-    position: absolute;
+
+header,section{
+    background-color:blanchedalmond;
+    border: 3px solid black;
+    border-radius: 10px;
 }
-header ul{
-    position:absolute;
-    right: 20px;
-}
-header li:hover{
-    color: aliceblue;
-    text-decoration: underline;
-}
-header li {
-    display: inline;
+header{
+    background-color:rgb(99, 152, 183);
     position: relative;
+    padding: 10px;
+}
+header:hover{
+    animation-name: rainbow;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    text-decoration:underline;
+}
+
+header ul{
+    position: absolute;
+    right:30px;
+    top:0px;
+    line-height: 70px;
+}
+
+header li{
+    display: inline;
+    margin-right: 4vw;
+    text-decoration: none;
+
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+
+header li:hover{
+    background-color:  rgb(202,121,65);
+}
+
+section{
+    padding: 10px;
+}
+
+.sec1 h2{
+    font-size: 60px;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-right: 4vw;
 }
-.sf{
-    background-color: aquamarine;
-    height: 180px;
-    width: 100%;
+#studies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec2 a{
+    padding: 5px;
+    margin: 5px;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+.sec2 a:hover{
+    animation-name: rainbow;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    text-decoration:underline;
+}
+
+@keyframes rainbow{
+    0%{background-color: hotpink;}
+    14% {background-color: red;}
+    28%{background-color: orange;}
+    42% {background-color: yellow;}
+    56%{background-color: green;}
+    70% {background-color: turquoise;}
+    84%{background-color: indigo;}
+    100% {background-color: violet;}
 }
