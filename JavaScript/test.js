@@ -1,5 +1,5 @@
 var quation = [
-    {Q:"sin θ + cos θ = ? (A) 0.5 (B) 1 (C) 1.5",A:"B"},
+    {Q:"sin ^2 θ + cos ^2 θ = ? (A) 0.5 (B) 1 (C) 1.5",A:"B"},
     {Q:"sin θ + cos θ = ? (A) 0.5 (B) 1 (C) 1.5",A:"B"},
     {Q:"sin θ + cos θ = ? (A) 0.5 (B) 1 (C) 1.5",A:"B"}
 ]
